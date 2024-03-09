@@ -56,7 +56,7 @@ function App() {
   
   return (
     <div className="app">
-       <p> hello </p>
+      
        <div className='sidebar' >
           <FriendList newFriendList= {newFriendList} onSelection={handleSelectFriend} selectedFriend={selectedFriend} />
           { addFriend && <FormAddFriend addFriend={addFriend} setNewFriendList={setNewFriendList} setAddFriend={setAddFriend} />}
